@@ -9,6 +9,13 @@ if(confirmVelocity) {
 if(velocity <= 0) {
   alert("The ship is stopped, consider and start increasing speed")
 } else {
+  if(velocity = 40) {
+    alert(" you are slow we can increase more ")
+  } else {
+    if(velocity < 80) {
+      alert("seems like a good speed to maintain  (parece uma boa velocidade para manter) ")
+    }
+  }
      
 }
 
