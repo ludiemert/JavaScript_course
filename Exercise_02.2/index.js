@@ -1,4 +1,4 @@
-let velocity = 80
+let velocity = 180
 
 switch(velocity * 2) {
   case 100:
@@ -9,6 +9,6 @@ switch(velocity * 2) {
     console.log("Your velocity is 160km/s")
     break
 
-  case 100:
+  default:
     console.log(" Velocity not identify")
 }
